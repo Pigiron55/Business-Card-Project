@@ -1,0 +1,35 @@
+body {
+    margin: 20px;
+    font-family: baskerville;
+}
+
+.avatar {
+    width: 150px;
+    box-shadow: 6px 6px #4C5B61;
+}
+
+.avatar:hover {
+       transform: rotate(355deg);
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background:  #829191;
+    color: black;
+    border-bottom: 6px solid #4C5B61;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+.info:hover {
+    transform: skewY(3deg);
+    
+}
+
